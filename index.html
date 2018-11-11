@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FIRST WEB PAGE</title>
+        <style>
+            html{
+                font-size: 14px;
+            }
+            h1{
+                font-size: 0.67em;
+            }
+            h2{
+                font-size: 0.8em;
+            }
+            h3{
+                font-size: 1.0em;
+            }
+            h4{
+                font-size: 1.4em;
+            }
+            h5{
+                font-size: 1.6em;
+            }
+            td{
+                border:1px solid #852257;
+                padding: 0.1em 1em
+            }
+            legend{
+                padding: 1em;
+            }
+            label.fixed{
+                width: 6em;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading i (h1)</h1>
+        <h2>Hheaing 2 (h2)</h2>
+        <h3>Heading 3 (h3)</h3>
+        <h4>Heading 4 (h4)</h4>
+        <h5>Heading 5 (h5)</h5>
+        Im <strong>working</strong>  <em>on</em>  html;
+        <a target="_blank" href="http://www.baidu.com">百度</a>
+        <table border="1"> 
+            <caption>This is a table</caption>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>DepartMent</th>
+                    <th>Sex</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1, cell 1</td>
+                    <td>Row 1, cell 2</td>
+                    <td>Row 1, cell 3</td>
+                    <td>Row 1, cell 4</td>
+                </tr>
+                <tr>
+                    <td>Row 2, cell 1</td>
+                    <td>Row 2, cell 2</td>
+                    <td>Row 2, cell 3</td>
+                    <td>Row 2, cell 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">this is tfoot</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        <form action="server.jso" method="POST">
+            <fieldset>
+                <legend>Text and Password</legend>
+                <label for="username">username:</label>
+                <input name="username" id="username" placeholder="Ashton">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </fieldset>
+            <fieldset>
+                <legend>Films you like</legend>
+                <div>
+                    <label class="fixed" for="drama">Drama</label>
+                <input type="checkbox" name="drama" id="drama" value="0">
+                </div>
+                <div>
+                    <label class="fixed" for="action">action</label>
+                <input type="checkbox" name="action" id="action" value="1">
+                </div>
+                <div>
+                    <label class="fixed" for="horro">Horro</label>
+                <input type="checkbox" name="horro" id="horro" value="2">
+                </div>
+                <div>
+                    <label class="fixed" for="Comedy">Comedy</label>
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                    <div>
+                        <label class="fixed" for="18orubder">action</label>
+                        <input type="radio" checked name="age" id="18orubder" value="1">
+                    </div>
+                    <div>
+                        <label class="fixed" for="18to30">Horro</label>
+                        <input type="radio" name="age" id="18to30" value="2">
+                    </div>
+                    <div>
+                        <label class="fixed" for="30to50">Comedy</label>
+                        <input type="radio" name="age" id="30to50" value="3">
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend> book </legend>
+                <label for="book">type</label>
+                <select name="book" id="book">
+                    <option>action</option>
+                    <option>horro</option>
+                    <option>Sc-fi</option>
+                    <option>drama</option>
+                </select>
+            </fieldset>
+            <button>submit</button>
+            <input type="checkbox" name="Comedy" id="Comedy" value="3">
+        </form>
+        <ul>
+            <li>This
+                <ul>
+                    <li>This type of</li>
+                    <li> that type is this</li>
+                    <ul>
+                        <li>this type of that type of this</li>
+                        <li>that type of that type of this</li>
+                        <li>the other type of that type of this</li>
+                    </ul>
+                </ul>
+            </li>
+            <li>the other type of this</li>
+        </ul>
+    
+    </body>
+</html>
