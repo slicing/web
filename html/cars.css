@@ -1,0 +1,109 @@
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+#header{
+    padding: 1.5em 0 1em;
+}
+#header .container {
+    position: relative;
+}
+#logo h1 a{
+    position: absolute;
+    margin: 0;
+    top: 0.75em;
+    padding-left:0.1em ;
+    text-transform: uppercase;
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    color: #fff;
+}
+#logo h1 span{
+    font-weight: 300;
+}
+#logo .circle{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding-top: 0.3em;
+    background-color: #ffffff;
+    color: rgba(0,0,0,0);
+    font-size: 1em;
+    border-radius: 50%;
+}
+#nav{
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+}
+#nav>ul>li{
+    float: left;
+}
+#nav>ul>li:last-child{
+    padding-right: 0;
+}
+#nav>ul>li>a{
+    display: block;
+    margin-left: 0.7em;
+    padding: 0.3em 1em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9em;
+    outline: 0;
+    color:rgba(255,255,255,0.6);
+}
+#nav>ul>li.active>a{
+    color: #ffffff;
+}
+.row{
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+}
+.row>*{
+    float: left;
+    padding: 40px 0 0 40px;
+    margin-left: 40px;
+}
+.row::after,.row::before{
+    content: '';
+    display:block;
+    clear:both;
+    height: 0;
+}
+.row{
+    margin: -40px 0 -1px -40px;
+}
+.u9{
+    width: 70%;
+    clear: none;
+}
+.u3{
+    width: 25%;
+    clear: none;
+    margin-left: 0;
+}
+#banner{
+    position: relative;
+    padding: 2em 0;
+    background: #ffffff;
+    text-align: center;
+    color: #ffffff;
+}
+.image.full{
+    display: block;
+    width:50%;
+}
+.image img{
+    width: 50%;
+}
+.bannerbox{
+    background: rgb(102,235,235);
+    padding: 1.5em;
+}
+.bannerbox h2 p{
+    font-size:1.2em;
+}
